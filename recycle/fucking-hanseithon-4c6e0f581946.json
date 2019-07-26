@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fucking-hanseithon",
+  "private_key_id": "d530afb0b5f20795120759debdd5f5a4af8908ee",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCYF1trU2uQnsOR\nF+RcA8RP4Ae5c0CbVMaGMNmG6tEIJUJpe404ClboUqc2HLDKcyEH27ySovglvIdj\nBMku4Ad9DJkv24Ik5Ny+bz7whogvPTJlsgrTsItJEf6mmY8bhm1Z85qTcrqUtvZI\n122ScwIVQ2WJ9c2QZpdNeV9eyDoFSHhv04pEGio1LVCjx0v3xmmqwpWhYKqCRUaz\nnIADMojPeA+4ani0ywOBad+S/joUCMdjd2c7P+G4GW+HsSZpqrKYMM1FH0uYljXg\n7VFQWFtuNIu8AcKU0Gi69Ybk2/Y52LEFYzCvSKXyYu0QVOkrf1aaAlVgW5Xyt/d9\nPAYx4LFLAgMBAAECggEAGH02Tqc9fClcMwomTnyayQO5Kq64mepCFwxZkkRQCSA6\nu9JVkE715G2el/Nxsf9ss5+5kuDj1Ouw3ww/uqj++68iIVcWcwtY0d8GwuLencCc\nU0yiOqjEHK1lk/zI0rVH+UJkwtYn3ddB+8OYVIrpLHRQLrEh+tzSAvsGlLPnx76+\nflrYcLdxT1NF4NkXc0oxNVSo5SlemPnBT46RwGD1EF3aXZKN26jh7Z7Fm2dveINe\npa2dxNtoEgqcFCJJbm8WuPC+U+hVzfCxAUE1ItE5YrXNOURRKiJP0YrzDetE7A73\ngusrSOdlSX+dZeEiKXo9XcQ1dT8LtH1mvjU0bfXQdQKBgQDFmnzhum/RlfaldhAR\nHN9Q9LLDodf3iEnmIVWilPEeOYdm7MROdmRfdoEVBpeBq/TX6LlEDxq7QkdhB9qv\nhmoeRHRP8vYvt4rDhzyM8o1rd6g1d0gCSvq7zDxSChV2PGB1tNIoRoq//YDqsuvq\nGAsSrSR0lN7e5vYgeLby0P0/fQKBgQDFCa7ACB8n4LZtXK7jtIU+yUEfYPE0E/e1\nAv11u+rxt1wZiCw82IEqpbF2KC7/uy7lbDRtwme4cafXiIBwJnmrs1grWyUTn8Yy\n5olx3u4lM9XuJPTivQIJEv9NaJboCCWHYjYHqt6F2sHww7+s1URVAQAaYFHvLpE0\nrnjbjZGeZwKBgE7oyXPu2pZsd2lNw07CI9+VSAndiHvd3fzbVPIu3ja+rHaKmD3p\nA14n2ZZG4puyynyp/8nQ6lDbP9vcohSz7Y6WsYf3sx4NAongaGq0tYqz5uUq9AOO\nY6A5B+GPC1EC/VYj1kSlHuVaW2/d8V2zKkDUCZnQlUuYGbOP4ScIFAmVAoGBAJaG\n7iSwT7T0XAmyW72DhKPRtlmVgs+pTXzQuvd9x2BAFzE+MaWONSdyi99blYQy6QHG\nJ0uO0BQ9Z98l3hFPo3YDviDpMasLTaxHKMuAZuiu8AlN3HN3t51dEQN/GoJK7vi9\nk89Jv1P9KlqYAM+14c0axYxg91dFeRMJEzWPsqaTAoGAH+McjLoQnH0DqvBqXLXy\nyjhz/WQsXCLSt6Qp9nbpLrvDk0DXrd2uYHaUG/Wd3VWbsbYrsyzgh42nveBPXjOZ\nMkv9mqHPPjZ8RoDvMUdWcc50bctQ68zWghxC3kj6dABuJavGgryASjSL5F8kOPJi\nKz2fumoItJ0l0tDnBghExUo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "reddit@fucking-hanseithon.iam.gserviceaccount.com",
+  "client_id": "108633407721195421351",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/reddit%40fucking-hanseithon.iam.gserviceaccount.com"
+}
