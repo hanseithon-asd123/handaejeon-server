@@ -35,3 +35,27 @@ class UserViewSet(viewsets.ModelViewSet):
 class MainViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = MainSerializer
+
+    def list(self, request, *args, **kwargs):
+        try:
+            username = request.GET.get('username')
+            user = User.objects.get(username=username)
+
+            response = {
+                'ranking': user.ranking,
+                'point': user.point,
+            }
+
+            return Response({
+                'user_data': response
+            })
+        except:
+            queryset = self.filter_queryset(self.get_queryset())
+
+            page = self.paginate_queryset(queryset)
+            if page is not None:
+                serializer = self.get_serializer(page, many=True)
+                return self.get_paginated_response(serializer.data)
+
+            serializer = self.get_serializer(queryset, many=True)
+            return Response(serializer.data)

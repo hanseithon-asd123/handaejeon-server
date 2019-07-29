@@ -75,34 +75,5 @@ def run(api_key, image_filename):
                 except KeyError:
                     return []
 
-
-# if __name__ == '__main__':
-#     api_key, *image_filenames = argv[1:]
-#     if not api_key or not image_filenames:
-#         print("""
-#             Please supply an api key, then one or more image filenames
-#             $ python cloudvisreq.py api_key image1.jpg image2.png""")
-#     else:
-#         response = request_ocr(api_key, image_filenames)
-#         if response.status_code != 200 or response.json().get('error'):
-#             print(response.text)
-#         else:
-#             for idx, resp in enumerate(response.json()['responses']):
-#                 # save to JSON file
-#                 imgname = image_filenames[idx]
-#                 jpath = join(RESULTS_DIR, basename(imgname) + '.json')
-#                 with open(jpath, 'w') as f:
-#                     datatxt = json.dumps(resp, indent=2)
-#                     print("Wrote", len(datatxt), "bytes to", jpath)
-#                     f.write(datatxt)
-#
-#                 # print the plaintext to screen for convenience
-#                 print("---------------------------------------------")
-#                 t = resp['textAnnotations'][0]
-#                 print("    Bounding Polygon:")
-#                 print(t['boundingPoly'])
-#                 print("    Text:")
-#                 print(t['description'])
-
 if __name__ == "__main__":
     print("start")

@@ -4,9 +4,8 @@ from django.contrib.auth.models import AbstractUser
 
 
 class User(AbstractUser):
-    profile_image = models.ImageField(upload_to='blog/%Y/%m/%d')
-    ranking = models.IntegerField(blank=False, null=False)
-    point = models.IntegerField(blank=False, null=False)
+    ranking = models.IntegerField(blank=True, null=True)
+    point = models.IntegerField(blank=True, null=True)
     email = models.EmailField(unique=True)
 
     USERNAME_FIELD = 'email'
